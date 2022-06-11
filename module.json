@@ -16,6 +16,14 @@
       "name": "akrigline"
     }
   ],
+  "dependencies": [
+    {
+      "name": "sequencer"
+    },
+    {
+      "name": "socketlib"
+    }
+  ],
   "scripts": [
     "./scripts/module.js"
   ],
