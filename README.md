@@ -8,5 +8,5 @@ Requires Sequencer.
 Does not have either of the modules as a dependency, but does nothing if none of them are installed (but they can be disabled).
 ## Downloads:
 ### [Sequencer-JKAE-Database](https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/latest/download/module.json)
-### [Spell Effects](https://github.com/jackkerouac/animated-spell-effects/releases/latest/download/module.json)
-### [Cartoon Spell Effects](https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/latest/download/module.json)
+### [Jack Kerouac's Spell Effects](https://github.com/jackkerouac/animated-spell-effects)
+### [Jack Kerouac's Cartoon Spell Effects](https://github.com/jackkerouac/animated-spell-effects-cartoon)
