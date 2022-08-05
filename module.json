@@ -1,6 +1,6 @@
 {
   "name": "sequencer-jkase-database",
-  "title": "Sequencer JKASE Database",
+  "title": "Jack Kerouac's Spell Effects Sequencer Plugin",
   "description": "A module that adds Sequencer functionality to Jack Kerouac's Animated Spell Effects modules.",
   "version": "This is auto replaced",
   "library": "false",
