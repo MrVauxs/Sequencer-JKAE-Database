@@ -1,35 +1,74 @@
 {
-  "name": "sequencer-jkase-database",
-  "title": "Jack Kerouac's Spell Effects Sequencer Plugin",
-  "description": "A module that adds Sequencer functionality to Jack Kerouac's Animated Spell Effects modules.",
-  "version": "This is auto replaced",
-  "library": "false",
-  "manifestPlusVersion": "1.0.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
-  "authors": [
-    {
-      "name": "MrVauxs",
-      "discord": "MrVauxs#8622"
-    },
-    {
-      "name": "akrigline"
-    }
-  ],
-  "dependencies": [
-    {
-      "name": "sequencer"
-    },
-    {
-      "name": "socketlib"
-    }
-  ],
-  "scripts": [
-    "./scripts/module.js"
-  ],
-  "url": "This is auto replaced",
-  "manifest": "This is auto replaced",
-  "download": "This is auto replaced",
-  "license": "LICENSE",
-  "readme": "README.md"
+	"name": "sequencer-jkase-database",
+	"title": "Jack Kerouac's Spell Effects Sequencer Plugin",
+	"description": "A module that adds Sequencer functionality to Jack Kerouac's Animated Spell Effects modules.",
+	"version": "This is auto replaced",
+	"library": "false",
+	"authors": [
+		{
+			"name": "MrVauxs",
+			"discord": "MrVauxs#8622"
+		},
+		{
+			"name": "akrigline"
+		}
+	],
+	"scripts": [
+		"./scripts/module.js"
+	],
+	"compatibility": {
+		"minimum": 9,
+		"verified": 10,
+		"maximum": 10
+	},
+	"manifestPlusVersion": "1.2.1",
+	"url": "This is auto replaced",
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"license": "LICENSE",
+	"readme": "README.md",
+	"dependencies": [
+		{
+			"name": "sequencer",
+			"type": "module"
+		},
+		{
+			"name": "socketlib",
+			"type": "module"
+		},
+		{
+			"id": "animated-spell-effects",
+			"type": "module"
+		},
+		{
+			"id": "animated-spell-effects-cartoon",
+			"type": "module"
+		}
+	],
+	"relationships": {
+		"systems": [],
+		"requires": [
+			{
+				"id": "sequencer",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "socketlib",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "animated-spell-effects",
+				"type": "module",
+				"compatibility": {}
+			},
+			{
+				"id": "animated-spell-effects-cartoon",
+				"type": "module",
+				"compatibility": {}
+			}
+		],
+		"conflicts": []
+	}
 }
