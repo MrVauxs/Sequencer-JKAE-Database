@@ -30,19 +30,23 @@
 	"dependencies": [
 		{
 			"name": "sequencer",
-			"type": "module"
+			"type": "module",
+			"manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json"
 		},
 		{
 			"name": "socketlib",
-			"type": "module"
+			"type": "module",
+			"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/develop/module.json"
 		},
 		{
 			"id": "animated-spell-effects",
-			"type": "module"
+			"type": "module",
+			"manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects/master/module.json"
 		},
 		{
 			"id": "animated-spell-effects-cartoon",
-			"type": "module"
+			"type": "module",
+			"manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects-cartoon/main/module.json"
 		}
 	],
 	"relationships": {
@@ -51,21 +55,25 @@
 			{
 				"id": "sequencer",
 				"type": "module",
+				"manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
 				"compatibility": {}
 			},
 			{
 				"id": "socketlib",
 				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/develop/module.json",
 				"compatibility": {}
 			},
 			{
 				"id": "animated-spell-effects",
 				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects/master/module.json",
 				"compatibility": {}
 			},
 			{
 				"id": "animated-spell-effects-cartoon",
 				"type": "module",
+				"manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects-cartoon/main/module.json",
 				"compatibility": {}
 			}
 		],
